@@ -2,30 +2,42 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legal School</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legal School</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <div class="divona">
-        <header>
-           
-          <a href="#default" class="logo"><img src="#"></a>
-          <div class="header-right">
-              
-          </div>
-          <div class="header-right">
+  <header>
+    <!-- menu lateral -->
+    <input type="checkbox" id="check">
+    <label id="icone" for="check" class="loginLogo"><img src="img/login.png">
+      <p></p>
+    </label>
+    <div class="barra">
+      <p>Faça seu login</p>
+      <div class="label-float">
+        <label id="labelLogin" for="login">Login</label>
+        <input type="text" id="login" placeholder=" " required>
+      </div>
 
-            <a href=""><img src="img/login.png">Login</a>
+      <div class="label-float">
+        <label id="labelSenha" for="cadSenha">Senha</label>
+        <input type="password" id="senha" placeholder=" " required>
 
+        <i class="fa fa-eye" aria-hidden="true"></i>
 
-          </div>
-
-        </header>
-
+      </div>
+      <button class="justify-center">Entrar</button>
     </div>
+
+      <div class="div-logo">
+        <a href="index.html"><img src="img/logo.png" class="logo"></a>
+      </div>
+  </header>
+  
 </body>
 
 </html>
