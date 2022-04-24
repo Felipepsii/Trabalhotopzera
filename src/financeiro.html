@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legal School</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header>
+    <!-- menu lateral -->
+    <input type="checkbox" id="check">
+    <label id="icone" for="check" class="loginLogo"><img src="../img/login.png">
+      <p></p>
+    </label>
+    <div class="barra">
+      <p>Faça seu login</p>
+      <div class="label-float">
+        <label id="labelLogin" for="login">Login</label>
+        <input type="text" id="login" placeholder=" " required>
+      </div>
+
+      <div class="label-float">
+        <label id="labelSenha" for="cadSenha">Senha</label>
+        <input type="password" id="senha" placeholder=" " required>
+
+        <i class="fa fa-eye" aria-hidden="true"></i>
+
+      </div>
+      <button class="justify-center">Entrar</button>
+    </div>
+
+      <div class="div-logo">
+        <a href="../index.html"><img src="../img/logo.png" class="logo"></a>
+      </div>
+  </header>
+
+  <section class="financeiro">
+    <div class="form">
+        <form action="localuno">
+    
+            <label>Matricula</label>
+            <input type="text">
+            <button type="submit">Consultar</button>
+        </form>
+    
+        <div class="table">
+            <table>
+                <tr>
+                    <td> Matricula </td>
+                    <td> Nome </td>
+                    <td> Ativides extra </td>
+                    <td> Valor Adicional </td>
+                </tr>
+                <tr>
+                    <td>202020</td>
+                    <td>João da Silva</td>
+                    <td>Sim</td>
+                    <td>R$ 249,00</td>
+                </tr>
+            </table>
+        
+        </div>
+    
+    </div>
+
+        <form>
+            <a href="boleto.html">
+                <input type="button" value="Gerar Boleto Adicional">
+            </a>
+        </form>
+    
+    </section>
+    
+  
+</body>
+
+</html>
