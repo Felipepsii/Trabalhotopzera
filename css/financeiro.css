@@ -1,3 +1,17 @@
+button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 50px 50px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+
 section.financeiro{
 
     margin-top: 300px;
