@@ -12,6 +12,17 @@ button{
 
 }
 
+input[type=text] {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size:  15px;
+    color: #000000;
+    font-family: 'Didot', sans-serif;
+  }
+
 section.financeiro{
 
     margin-top: 300px;
